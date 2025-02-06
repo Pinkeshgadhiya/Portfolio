@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinkesh Gadhiya | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Mouse Gradient Follow -->
+    <div class="mouse-gradient"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="gradient-text">Pinkesh Gadhiya</span>
+        </div>
+        <div class="menu-btn">
+            <span></span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <div class="hero-content">
+                <div class="hero-greeting">
+                    <span class="code-tag">&lt;developer&gt;</span>
+                    <span class="wave">👋</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Pinkesh Gadhiya</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typewriter">Full Stack Developer</span>
+                    <span class="cursor">_</span>
+                </div>
+                <div class="hero-description">
+                    <span class="code-comment">// I build things for the web</span>
+                    <div class="code-block">
+                        const skills = {<br>
+                        &nbsp;&nbsp;frontend: ["React", "JavaScript", "HTML5", "CSS3"],<br>
+                        &nbsp;&nbsp;backend: ["Node.js", "PHP", "MySQL"],<br>
+                        &nbsp;&nbsp;tools: ["Git", "Docker", "AWS"]<br>
+                        };
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">
+                        <i class="fas fa-code-branch"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="code-editor">
+                <div class="editor-header">
+                    <div class="editor-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="editor-title">developer.js</span>
+                </div>
+                <div class="editor-content">
+                    <pre><code>
+class Developer {
+    constructor() {
+        this.name = "Pinkesh Gadhiya";
+        this.role = "Full Stack Developer";
+        this.location = "Surat, India";
+        this.skills = ["React", "Node.js", "PHP"];
+    }
+
+    sayHi() {
+        console.log("Thanks for visiting!");
+    }
+
+    getCurrentProject() {
+        return {
+            title: "Portfolio Website",
+            tech: "React + Node.js",
+            status: "Available for hire"
+        };
+    }
+}
+
+// Initialize developer
+const me = new Developer();
+me.sayHi();
+                    </code></pre>
+                </div>
+            </div>
+            <div class="floating-tech">
+                <div class="tech-badge react"><i class="fab fa-react"></i></div>
+                <div class="tech-badge node"><i class="fab fa-node-js"></i></div>
+                <div class="tech-badge js"><i class="fab fa-js"></i></div>
+                <div class="tech-badge php"><i class="fab fa-php"></i></div>
+                <div class="tech-badge git"><i class="fab fa-git-alt"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+        <div class="about-container">
+            <div class="about-image" data-aos="fade-right">
+                <img src="Assets/Pinkesh.JPG" alt="Profile Picture">
+                <div class="experience-badge">
+                    <span class="years">3+</span>
+                    <span class="text">Years of<br>Experience</span>
+                </div>
+            </div>
+            
+            <div class="about-content" data-aos="fade-left">
+                <h3 class="gradient-text">Web Developer & Designer</h3>
+                <p class="about-text">
+                    Hello! I'm a passionate web developer with a strong focus on creating beautiful and functional websites. 
+                    With over 3 years of experience in web development, I specialize in building responsive and user-friendly applications.
+                </p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects<br>Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Happy<br>Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Client<br>Satisfaction</span>
+                    </div>
+                </div>
+
+                <div class="about-buttons">
+                    <a href="#contact" class="btn primary-btn">Hire Me</a>
+                    <a href="resume.pdf" class="btn secondary-btn" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-aos="fade-up">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="500">
+                        <svg class="tailwind-icon" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/>
+                        </svg>
+                        <span>Tailwind</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend & Database -->
+            <div class="skill-category">
+                <h3>Backend & Database</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-aos="fade-up">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 78%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-aos="fade-up">
+                        <i class="fas fa-code"></i>
+                        <span>C</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                        <div class="skill-level">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image">
+                    <img src="amazon-clone.jpg" alt="Amazon Clone Project">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://your-amazon-clone-url.com" class="project-link" target="_blank"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/yourusername/amazon-clone" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Amazon Website Clone</h3>
+                    <p>A fully responsive Amazon website replica featuring user authentication, product catalog, shopping cart functionality, and payment integration.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-react"></i> React.js</span>
+                        <span><i class="fas fa-fire"></i> Firebase</span>
+                        <span><i class="fab fa-stripe"></i> Stripe</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New CMI Website Clone Project -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-image">
+                    <img src="cmi-clone.jpg" alt="Creative Multimedia Institute Clone">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://your-cmi-clone-url.com" class="project-link" target="_blank"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/yourusername/cmi-clone" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Creative Multimedia Institute Clone</h3>
+                    <p>A responsive educational website clone featuring course listings, student registration, interactive course catalog, and a dynamic learning management system.</p>
+                    <div class="project-tags">
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                        <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                        <span><i class="fas fa-database"></i> MySQL</span>
+                        <span><i class="fab fa-php"></i> PHP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p class="contact-description">
+                    I'm currently available for freelance work or full-time positions. 
+                    Feel free to reach out if you have a project in mind or just want to connect!
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:pinkeshgadhiya@gmail.com">pinkeshgadhiya@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <a href="tel:+919429856020">+91 94298 56020</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Surat, Gujarat, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3 class="gradient-text">Pinkesh Gadhiya</h3>
+                    <p class="footer-tagline">Building digital experiences that inspire</p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-group">
+                        <h4>Quick Links</h4>
+                        <nav>
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#contact">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="footer-group">
+                        <h4>Services</h4>
+                        <nav>
+                            <a href="#">Web Development</a>
+                            <a href="#">Frontend Development</a>
+                            <a href="#">Backend Development</a>
+                            <a href="#">UI/UX Design</a>
+                        </nav>
+                    </div>
+                    <div class="footer-group">
+                        <h4>Contact Info</h4>
+                        <div class="footer-contact">
+                            <p><i class="fas fa-envelope"></i> pinkeshgadhiya@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +91 94298 56020</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Surat, Gujarat, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Pinkesh Gadhiya. All rights reserved.</p>
+                </div>
+                <div class="footer-credits">
+                    <p>
+                        <span class="code-tag">&lt;/&gt;</span> with 
+                      <!-- <span class="heart">❤️</span> by  -->
+                        <span class="gradient-text">Pinkesh Gadhiya</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
